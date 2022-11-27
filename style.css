@@ -80,10 +80,10 @@ h1{
     
 }
 #p1{
-    padding-left: 320Px;
+    padding-left:22%;;
 }
 #p2{
-    padding-left:100px;
+    padding-left: 7.18%;;
 }
 
 @media screen and (max-width:900px)
@@ -117,6 +117,9 @@ h1{
   {
     display:block;
   }
+  
+}
+@media screen and (max-width:959px){
   .container{
     flex-direction: column;
   }
