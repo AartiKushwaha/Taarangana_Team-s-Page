@@ -70,19 +70,23 @@ a
   font-size:35px;
   cursor:pointer;
 }
-h1{
+h1
+{
     text-align: center;
     padding-top: 40px;
 }
-.container{
+.container
+{
     display:flex;
     padding-top: 60px;
     
 }
-#p1{
+#p1
+{
     padding-left:22%;;
 }
-#p2{
+#p2
+{
     padding-left: 7.18%;;
 }
 
@@ -119,18 +123,23 @@ h1{
   }
   
 }
-@media screen and (max-width:959px){
-  .container{
+@media screen and (max-width:959px)
+{
+  .container
+  {
     flex-direction: column;
   }
-  .team{
+  .team
+  {
     align-self: center;
     padding: 0;
   }
-  #p1,#p2{
+  #p1,#p2
+  {
     padding:0;
   }
-  #x{
+  #x
+  {
     padding-top: 0;
   }
 }
