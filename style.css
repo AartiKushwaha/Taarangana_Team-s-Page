@@ -9,6 +9,7 @@ body
 {
   font-family: 'Poppins', sans-serif;
 
+
 }
 ul
 {
@@ -17,6 +18,13 @@ ul
 a
 {
   text-decoration:none;
+}
+.background-image{
+  background-image: url('img/img.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header
@@ -264,3 +272,4 @@ h1
 	 transition: all 0.3s ease-in-out;
 	 transition-delay: 0.1s;
 }
+
