@@ -8,6 +8,99 @@
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Ubuntu", sans-serif;
+  background-color: hsl(260, 10%, 5%);
+}
+
+.container-team{
+  padding: 0 15px;
+  max-width: 980px;
+  margin: auto;
+}
+
+.team{
+  padding: 100px 0;
+}
+
+.team-item{
+  background-color: hsl(260, 10%, 10%);
+}
+
+.team-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 30px;
+  margin-top: 40px;
+}
+
+
+.team-img{
+  position: relative;
+  overflow: hidden;
+}
+.team-links{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.team-links a{
+  height: 40px;
+  width: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(183, 67%, 51%);
+  text-decoration: none;
+  color: hsl(260, 10%, 10%);
+  margin: 0 2px;
+  transform: translate(-100px) rotate(90deg);
+  transition: all 0.5s ease calc(0.1s * var(--i));
+  opacity: 0;
+}
+
+.team-item:hover .team-links a{
+  transform: translateX(0) rotate(0);
+  opacity: 1;
+}
+
+.team-links i{
+  transition: transform 0.3s ease;
+}
+.team-links a:hover i{
+  transform: rotate(360deg);
+}
+
+.team-img img{
+  width: 100%;
+  vertical-align: middle;
+  transition: all 0.5s ease;
+}
+
+.team-item:hover .team-img img{
+  transform: scale(1.1);
+  filter: brightness(60%) grayscale(100%);
+}
+
+.team-text{
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.team-text h3{
+  color: hsl(183, 67%, 51%);
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0 0 5px;
+  font-size: 20px;
+}
+
+.team-text p{
+  font-size: 16px;
+  color: hsla(0, 0%, 100%, 0.7);
+  text-transform: capitalize;
+  font-weight: 300;
 }
 
 ul {
