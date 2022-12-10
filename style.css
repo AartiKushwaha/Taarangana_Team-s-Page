@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu&display=swap");
 * {
   margin: 0;
@@ -13,7 +14,7 @@ body {
 
 .container-team{
   padding: 0 15px;
-  max-width: 900px;
+  max-width: 820px;
   margin: auto;
 }
 
@@ -148,6 +149,31 @@ hr {
   font-family: "Roboto", sans-serif;
   font-family: "Ubuntu", sans-serif;
 }
+
+
+
+.neons h1 {
+  font-size: 9rem;
+  text-align: center;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+     from {
+      color: #fff;
+    text-shadow: 0 0 10px #f2b553, 0 0 20px #f2b553, 0 0 30px #f2b553, 0 0 40px #f2b553, 0 0 50px #f2b553, 0 0 60px #f2b553, 0 0 70px #f2b553, 0 0 90px #f2b553;
+  }
+  
+  to {
+     color: rgba(240, 248, 255, 0.627);
+    text-shadow: 0 0 20px #f2b553, 0 0 30px #f2b553, 0 0 40px #f2b553, 0 0 50px #f2b553, 0 0 60px #f2b553, 0 0 70px #f2b553, 0 0 80px #f2b553, 0 1 90px #f2b553;
+  }
+}
+
+
 .scroll-down {
     height: 50px;
     width: 30px;
@@ -339,6 +365,7 @@ nav .close:hover div::after {
 
 h1{
   padding-top: 3rem;
+   /* padding-left: 3rem; */
   font-size: 3.3rem;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.716);
