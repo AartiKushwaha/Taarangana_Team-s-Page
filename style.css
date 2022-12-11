@@ -152,6 +152,8 @@ hr {
 
 
 
+
+
 .neons h1 {
   font-size: 7rem;
   text-align: center;
@@ -159,7 +161,15 @@ hr {
   -moz-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
 }
-
+@media only screen and (max-width: 522px) {
+  .title {
+      padding-top: 9.5rem;
+      font-size: 5rem;
+  }
+  .neons h1 {
+    font-size: 5rem;
+  }
+}
 @-webkit-keyframes glow {
      from {
       color: #fff;
@@ -167,7 +177,7 @@ hr {
   }
   
   to {
-     color: rgba(240, 248, 255, 0.627);
+     color: #fcfcfc84;
     text-shadow: 0 0 20px #f2b553, 0 0 30px #f2b553, 0 0 40px #f2b553, 0 0 50px #f2b553, 0 0 60px #f2b553, 0 0 70px #f2b553, 0 0 80px #f2b553, 0 1 90px #f2b553;
   }
 }
@@ -369,6 +379,12 @@ h1{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.716);
   text-align: center
+ 
+
+}
+
+h1 {
+  -webkit-text-stroke: 1.8px rgba(255, 115, 0, 0.323);
 }
 /* hover_css_code */
 @import "https://fonts.googleapis.com/css?family=Do+Hyeon";
