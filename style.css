@@ -142,7 +142,7 @@ hr {
 .title {
   padding-top: 12rem;
   color: rgba(240, 248, 255, 0.627);
-  font-size: 8rem;
+  font-size: 7rem;
   text-align: center;
   text-shadow: #fff;
 
@@ -153,7 +153,7 @@ hr {
 
 
 .neons h1 {
-  font-size: 8rem;
+  font-size: 7rem;
   text-align: center;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   -moz-animation: glow 2s ease-in-out infinite alternate;
