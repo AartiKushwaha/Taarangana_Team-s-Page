@@ -145,6 +145,8 @@ hr {
   font-size: 7rem;
   text-align: center;
   text-shadow: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
 
   font-family: "Roboto", sans-serif;
   font-family: "Ubuntu", sans-serif;
