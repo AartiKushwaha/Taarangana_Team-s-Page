@@ -300,6 +300,7 @@ nav ul {
 
 nav ul li {
   margin: 50px 0;
+  text-align: center;
 }
 
 nav ul li a {
@@ -529,5 +530,17 @@ h1 {
   z-index: 2;
   transition: all 0.3s ease-in-out;
   transition-delay: 0.1s;
+}
+
+.media-last{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+@media only screen and (max-width: 600px) {
+  .media-last {
+    flex-wrap: wrap;
+  }
 }
 
