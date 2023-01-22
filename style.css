@@ -9,8 +9,12 @@
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Ubuntu", sans-serif;
-  background-color: hsl(260, 10%, 5%);
+  background-image: url(bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }
+
 
 .container-team {
   padding: 0 15px;
