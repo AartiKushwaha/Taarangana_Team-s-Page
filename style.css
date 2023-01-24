@@ -12,9 +12,8 @@ body {
   background-image: url(bg1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
-
 
 .container-team {
   padding: 0 15px;
@@ -168,6 +167,12 @@ hr {
   }
   .neons h1 {
     font-size: 5rem;
+  }
+  body {
+    background-image: url(mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 @-webkit-keyframes glow {
