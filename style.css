@@ -171,6 +171,18 @@ hr {
   .neons h1 {
     font-size: 5rem;
   }
+  .scroll-down {
+    height: 58px;
+    width: 33px;
+    border: 2px solid #9f9f9f9f;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    bottom: 248px;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: auto;
+  }
   /* body {
     background-image: url(mobile.png);
     background-size: cover;
