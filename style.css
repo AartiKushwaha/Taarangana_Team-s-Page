@@ -9,17 +9,18 @@
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Ubuntu", sans-serif;
-  /* background-image: url(bg1.png);
+  background-image: url(bgvideo.gif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
+
 
 .container-team {
   padding: 0 15px;
   max-width: 820px;
   margin: auto;
-  margin-top: 606px;
+  margin-top: 637px;
 }
 
 .team {
@@ -172,23 +173,16 @@ hr {
     font-size: 5rem;
   }
   .scroll-down {
-    height: 58px;
-    width: 33px;
+    height: 50px;
+    width: 30px;
     border: 2px solid #9f9f9f9f;
     position: absolute;
     z-index: 0;
     left: 50%;
-    bottom: 248px;
+    bottom: 242px;
     border-radius: 13px;
     cursor: pointer;
-    margin: auto;
   }
-  /* body {
-    background-image: url(mobile.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  } */
 }
 
 @-webkit-keyframes glow {
@@ -555,6 +549,17 @@ h1 {
   .media-last {
     flex-wrap: wrap;
   }
+  .scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid #9f9f9f9f;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    bottom: 242px;
+    border-radius: 13px;
+    cursor: pointer;
+  }
 }
 
 .mediateam-only {
@@ -563,7 +568,7 @@ h1 {
   margin: auto;
 }
 
-#myVideo {
+/* #myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -577,4 +582,4 @@ h1 {
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-}
+} */
