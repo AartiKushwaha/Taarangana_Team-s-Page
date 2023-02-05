@@ -133,7 +133,7 @@ hr {
   height: 5px;
 }
 .group {
-  background-image: url("bgGrp.jpg");
+  background-image: url("img/grp1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -574,14 +574,6 @@ h1 {
     cursor: pointer;
   }
 
-  .group {
-    background-image: url("mobileg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-  }
 }
 
 .mediateam-only {
